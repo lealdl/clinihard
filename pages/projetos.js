@@ -32,7 +32,7 @@ function Projetos({ data }) {
                                 <i className={data.dataHome.ser_icon_one}></i>
                                 <div className="text">App Chamados</div>
                                 <img src="/app_chamados.png" alt="Sobre Empresa" />
-                                <p>Aplicativo para pequenas oficinas de manutenção de computadores.</p>
+                                <p>Aplicativo para pequenas Assistências de manutenção de computadores.</p>
                             </div>
                         </div>
 
