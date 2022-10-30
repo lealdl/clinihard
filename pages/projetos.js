@@ -19,9 +19,9 @@ function Projetos({ data }) {
             </Head>
             <Menu />
             {console.log(data)};
-            
 
-           
+
+
 
             <section className="services">
                 <div className="max-width">
@@ -33,18 +33,23 @@ function Projetos({ data }) {
                                 <div className="text">App Chamados</div>
                                 <img src="/app_chamados.png" alt="Sobre Empresa" />
                                 <p>Aplicativo para pequenas Assistências de manutenção de computadores.</p>
+
                             </div>
                         </div>
+                        
 
                         <div className="card">
-                        
+
                             <div className="box">
-                            
+
                                 <i className={data.dataHome.ser_icon_two}></i>
-                                
+
                                 <div className="text">Sistema Web Chamados</div>
                                 <img src="/chamados_web.png" alt="Sobre Empresa" />
                                 <p>O cliente realiza um chamado pelo site e o mesmo é enviado para um servidor.</p>
+
+
+
                             </div>
                         </div>
 
@@ -57,14 +62,17 @@ function Projetos({ data }) {
                                 <p>{data.dataHome.ser_desc_three}</p>
                             </div>
                         </div>
+                        
+                        
                     </div>
                     
 
-
                 </div>
+                
             </section>
-
             
+
+
 
             <Footer data={data.dataFooter} />
 
