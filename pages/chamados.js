@@ -208,8 +208,8 @@ function Chamados({ data }) {
 }
 
 export async function getServerSideProps() {
-    //const response = await fetch(`https://luciano1925.c37.integrator.host/view-content-chamados`);
-    const response = await fetch(`http://localhost:5000/view-content-chamados`);
+    const response = await fetch(`https://luciano1925.c37.integrator.host/view-content-chamados`);
+    //const response = await fetch(`http://localhost:5000/view-content-chamados`);
     const data = await response.json();
     //console.log(data);
 
