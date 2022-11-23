@@ -84,7 +84,7 @@ function Home({ data }) {
                     <div className="premium-content">
                         <div className="column left">
                         <img src="/react-node-js.png" alt="Sobre Empresa" />
-                        <img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />
+                        
                         </div>
                         <div className="column right">
                             <div className="text">
@@ -116,3 +116,5 @@ export async function getServerSideProps() {
 }
 
 export default Home;
+
+//<img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />
