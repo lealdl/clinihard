@@ -29,10 +29,25 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/chamados": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/chamados.js"
+    ],
+    "/contato": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contato.js"
+    ],
     "/projetos": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/projetos.js"
+    ],
+    "/sobre-empresa": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/sobre-empresa.js"
     ]
   },
   "ampFirstPages": []

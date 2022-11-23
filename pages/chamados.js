@@ -15,7 +15,7 @@ function Chamados({ data }) {
         marca: '',
         modelo: '',
         defeito: '',
-        fechado: 'NÃO',
+        fechado: 'ABERTO',
         tecnico: ''
     });
 
@@ -33,7 +33,9 @@ function Chamados({ data }) {
         setResponse({ formSave: true });
 
         try {
-            const res = await fetch('https://luciano1925.c37.integrator.host/add-chamado', {
+            //const res = await fetch('https://luciano1925.c37.integrator.host/add-chamado', {
+                const res = await fetch('http://localhost:5000/add-chamado', {
+
                 method: 'POST',
                 body: JSON.stringify(content),
                 headers: { 'Content-Type': 'application/json' }
@@ -206,7 +208,8 @@ function Chamados({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`https://luciano1925.c37.integrator.host/view-content-chamados`);
+    //const response = await fetch(`https://luciano1925.c37.integrator.host/view-content-chamados`);
+    const response = await fetch(`http://localhost:5000/view-content-chamados`);
     const data = await response.json();
     //console.log(data);
 

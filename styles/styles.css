@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Chathura:wght@100&family=Smooch+Sans:wght@300&family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -129,7 +130,7 @@ font-family: 'Smooch Sans', sans-serif;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prata', serif;
     font-weight: 200;
     /*font-family: 'Share Tech Mono', monospace;*/
     /*font-family: Verdana, Arial, Helvetica, sans-serif;*/
@@ -174,7 +175,7 @@ font-family: 'Smooch Sans', sans-serif;
 .services{
     color: #fff;
     background-color: #0c0f16;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prata', serif;
     /*font-family: 'Share Tech Mono', monospace;*/
     /*font-family: 'Poppins', sans-serif;*/
 }
@@ -236,7 +237,7 @@ font-family: 'Smooch Sans', sans-serif;
 .premium{
     color: #fff;
     background-color: #151921;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prata', serif;
     /*font-family: 'Share Tech Mono', monospace;*/
     /*font-family: 'Poppins', sans-serif;*/
 }
@@ -314,7 +315,7 @@ footer{
     padding: 15px 23px;
     color: #fff;
     text-align: center;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Prata', serif;
     /*font-family: 'Share Tech Mono', monospace;*/
     /*font-family: 'Poppins', sans-serif;*/
     margin-top: auto;
@@ -329,7 +330,7 @@ footer span a:hover{
 .about{
     color: #fff;
     background-color: #0c0f16;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prata', serif;
     /*font-family: 'Share Tech Mono', monospace;*/
     /*font-family: 'Poppins', sans-serif;*/
 }
@@ -405,7 +406,7 @@ footer span a:hover{
 .contact{
     color: #fff;
     background-color: #0c0f16;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Prata', serif;
     /*font-family: 'Poppins', sans-serif;*/
 }
 .contact .title{
@@ -578,7 +579,7 @@ footer span a:hover{
     padding-top: 30px;
     font-weight:100;
     font-size: 30px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Prata', serif;
 }
 
 .right form .button-area button{

@@ -84,7 +84,7 @@ function Home({ data }) {
                     <div className="premium-content">
                         <div className="column left">
                         <img src="/react-node-js.png" alt="Sobre Empresa" />
-                        {/*<img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />*/}
+                        <img src={data.urlImage + data.dataHome.image_ser_prem} alt="Serviço premium" />
                         </div>
                         <div className="column right">
                             <div className="text">
@@ -107,8 +107,8 @@ function Home({ data }) {
 }
 
 export async function getServerSideProps() {
-    const response = await fetch(`https://luciano1925.c37.integrator.host/view-home`);
-    //const response = await fetch(`http://ch-coder.ddns.net:8090/view-home`);
+   // const response = await fetch(`https://luciano1925.c37.integrator.host/view-home`);
+    const response = await fetch(`http://localhost:5000/view-home`);
     const data = await response.json();
     //console.log(data);
 
